@@ -1,0 +1,741 @@
+@media all and (min-width: 689px) and (max-width: 2000px) {
+  body {
+    box-sizing: border-box;
+    margin: 0px;
+    width: 100%;
+  }
+
+  nav input[type="checkbox"] {
+    opacity: 0;
+    display: none;
+  }
+
+  nav {
+    width: 100%;
+    top: 25px;
+    text-align: right;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+
+  nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 15px;
+    position: relative;
+  }
+
+  header {
+    width: 100%;
+    background-color: grey;
+  }
+
+  .headerBox {
+    margin: auto;
+    width: 700px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 400px;
+    padding: 30px 40px;
+    height: 15vh;
+  }
+
+  .logoTitle {
+    display: flex;
+    align-items: center;
+  }
+
+  header img {
+    height: 40px;
+    width: 40px;
+  }
+
+  header h1 {}
+
+  .about {
+    box-sizing: border-box;
+    background-color: #ccc;
+    width: 100%;
+    padding: 0px 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .about h2 {
+    padding: 120px 0px 120px 0px;
+    margin: 0px;
+  }
+
+  .about img {
+    margin-top: 170px;
+  }
+
+  .skills {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 80px 40px 80px 40px;
+  }
+
+  .skillsContent {
+    text-align: left;
+    width: 340px;
+    padding: 0px 0px 0px 40px;
+  }
+
+  .skills h2, .contact h2 {
+    display: block;
+    padding-bottom: 20px;
+  }
+
+  .skills h3, .projects h3 {
+    display: block;
+  }
+
+  .skills p, .skills ul, .projects p, .projects a {
+    padding-bottom: 10px;
+  }
+
+  .projects {
+    background-color: #bbb;
+  }
+
+  .projectTech {
+    padding-bottom: 10px;
+  }
+
+  a.projectButton {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+  }
+
+
+  .projects {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 40px 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projects h2 {
+    width: 600px;
+    display: block;
+    padding: 50px 0px;
+  }
+
+  .projects img {
+    width: 300px;
+    display: block;
+  }
+
+  .leftProject {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .leftProjecText {
+    padding-right: 20px;
+  }
+
+  .contact {
+    box-sizing: border-box;
+    background-size: cover;
+    padding: 40px 40px;
+        background-color: #aaa;
+  }
+
+  .contactBox {
+    width: 600px;
+    text-align: left;
+    margin: auto;
+
+  }
+}
+
+@media all and (min-width: 412px) and (max-width: 688px) {
+  body {
+    box-sizing: border-box;
+    margin: 0px;
+  }
+
+  header {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 400px;
+    padding: 30px 40px;
+    height: 15vh;
+  }
+
+  .logoTitle {
+    display: flex;
+    align-items: center;
+  }
+
+  header img {
+    height: 40px;
+    width: 40px;
+  }
+
+  header h1 {
+    z-index: 12;
+  }
+
+  .about {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .about h2 {
+    padding: 80px 0px 80px 0px;
+    margin: 0px;
+  }
+
+  .about img {
+    margin-top: 130px;
+  }
+
+  .skills {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 40px 40px 80px 40px;
+  }
+
+  .skillsContent {
+    text-align: left;
+    padding: 0px 0px 0px 40px;
+  }
+
+  .skills h2, .projects h2, .contact h2 {
+    display: block;
+    padding-bottom: 20px;
+  }
+
+  .skills h3, .projects h3 {
+    display: block;
+  }
+
+  .skills p, .skills ul, .projects p, .projects a {
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+
+  .techIcon {
+    color: #4b4b4b;
+    height: 1.3em;
+  }
+
+  .projectTech {
+    padding-bottom: 10px;
+  }
+
+  a.projectButton {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+  }
+
+  a.projectButton:hover {}
+
+  #burger1 {
+    position: relative;
+    top: 0;
+    z-index: 12;
+  }
+
+  #burger2 {
+    position: relative;
+    top: -65px;
+    z-index: 11;
+  }
+
+  #burger3 {
+    position: relative;
+    top: -150px;
+    z-index: 10;
+  }
+
+  #burger4 {
+    position: relative;
+    top: -190px;
+    z-index: 9;
+  }
+
+  img#burger5 {
+    position: relative;
+    top: -260px;
+    z-index: 8;
+  }
+
+  img#burger6 {
+    position: relative;
+    top: -310px;
+    z-index: 7;
+  }
+
+  .projects {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 40px 40px;
+  }
+
+  .projects img {
+    width: 300px;
+    display: block;
+  }
+
+  .leftProject {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .leftProjecText {
+    padding-right: 20px;
+  }
+
+  .contact {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 40px 40px;
+  }
+
+  body {
+    font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+    /* needed because hiding the menu on the right side is not perfect,  */
+  }
+
+  a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  a:hover {}
+
+  #menuToggle {
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  #menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    cursor: pointer;
+    opacity: 0;
+    /* hide this */
+    z-index: 2;
+    /* and place it over the hamburger */
+    -webkit-touch-callout: none;
+  }
+
+  /*
+ * Just a quick hamburger
+ */
+  #menuToggle span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background: #222;
+    border-radius: 3px;
+    z-index: 1;
+    transform-origin: 4px 0px;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+      opacity 0.55s ease;
+  }
+
+  #menuToggle span:first-child {
+    transform-origin: 0% 0%;
+  }
+
+  #menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+
+  /*
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+  #menuToggle input:checked~span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #222;
+  }
+
+  /*
+ * But let's hide the middle one.
+ */
+  #menuToggle input:checked~span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  /*
+ * Ohyeah and the last one should go the other direction
+ */
+  #menuToggle input:checked~span:nth-last-child(2) {
+    opacity: 1;
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  /*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+  #menu {
+    position: absolute;
+    width: 600px;
+    margin: -100px 0 0 0;
+    padding: 50px;
+    padding-top: 125px;
+    right: -100px;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+    transform-origin: 0% 0%;
+    transform: translate(100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+  }
+
+  #menu li {
+    padding: 10px 60px;
+    text-align: right;
+    font-size: 22px;
+  }
+
+  /*
+ * And let's fade it in from the left
+ */
+  #menuToggle input:checked~ul {
+    transform: scale(1.0, 1.0);
+    opacity: 1;
+  }
+}
+
+@media all and (max-width: 412px) {
+  body {
+    box-sizing: border-box;
+    margin: 0px;
+  }
+
+  header {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 300px;
+    padding: 30px 40px;
+    height: 15vh;
+  }
+
+  .logoTitle {
+    display: flex;
+    align-items: center;
+  }
+
+  header img {
+    height: 40px;
+    width: 40px;
+  }
+
+  header h1 {
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+  }
+
+  section.about {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  section.about h2 {
+    padding: 80px 0px 80px 0px;
+    margin: 0px;
+    font-size: 30px;
+    font-family: 'Goudy Bookletter 1911', serif;
+  }
+
+  section.about img {
+    margin-top: 130px;
+  }
+
+  section.skills {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 40px 40px 80px 40px;
+  }
+
+  .skills h2, .projects h2, .contact h2 {
+    display: block;
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-family: 'Goudy Bookletter 1911', serif;
+  }
+
+  .skills h3, .projects h3 {
+    display: block;
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-family: 'Goudy Bookletter 1911', serif;
+  }
+
+  .skills p, .skills ul, .projects p, .projects a {
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-family: 'Open-Sans', sans-serif;
+    line-height: 1.6;
+  }
+
+  .techIcon {
+    height: 1.3em;
+  }
+
+  .projectTech {
+    padding-bottom: 10px;
+  }
+
+  a.projectButton {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+  }
+
+  a.projectButton:hover {}
+
+  .burger {
+    width: 200px;
+    height: 200px;
+  }
+
+  #burger1 {
+    width: 150px;
+    position: relative;
+    top: 0;
+    z-index: 12;
+  }
+
+  #burger2 {
+    width: 150px;
+    position: relative;
+    top: -40px;
+    z-index: 11;
+  }
+
+  #burger3 {
+    width: 150px;
+    position: relative;
+    top: -85px;
+    z-index: 10;
+  }
+
+  #burger4 {
+    width: 150px;
+    position: relative;
+    top: -115px;
+    z-index: 9;
+  }
+
+  #burger5 {
+    width: 150px;
+    position: relative;
+    top: -165px;
+    z-index: 8;
+  }
+
+  #burger6 {
+    width: 150px;
+    position: relative;
+    top: -205px;
+    z-index: 7;
+  }
+
+  .projects {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 40px 40px;
+  }
+
+  .projects img {
+    width: 200px;
+    display: block;
+  }
+
+  .leftProject {
+    display: block;
+  }
+
+  .leftProjectText {
+    padding-right: 20px;
+  }
+
+  .contact {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 40px 40px;
+  }
+
+  body {
+    font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+    /* needed because hiding the menu on the right side is not perfect,  */
+  }
+
+  a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  a:hover {}
+
+  #menuToggle {
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  #menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    cursor: pointer;
+    opacity: 0;
+    /* hide this */
+    z-index: 2;
+    /* and place it over the hamburger */
+    -webkit-touch-callout: none;
+  }
+
+  /*
+ * Just a quick hamburger
+ */
+  #menuToggle span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background: #222;
+    border-radius: 3px;
+    z-index: 1;
+    transform-origin: 4px 0px;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+      opacity 0.55s ease;
+  }
+
+  #menuToggle span:first-child {
+    transform-origin: 0% 0%;
+  }
+
+  #menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+
+  /*
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+  #menuToggle input:checked~span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #222;
+  }
+
+  /*
+ * But let's hide the middle one.
+ */
+  #menuToggle input:checked~span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  /*
+ * Ohyeah and the last one should go the other direction
+ */
+  #menuToggle input:checked~span:nth-last-child(2) {
+    opacity: 1;
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  /*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+  #menu {
+    position: absolute;
+    width: 600px;
+    margin: -100px 0 0 0;
+    padding: 50px;
+    padding-top: 125px;
+    right: -100px;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+    transform-origin: 0% 0%;
+    transform: translate(100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+  }
+
+  #menu li {
+    padding: 10px 60px;
+    text-align: right;
+    font-size: 22px;
+  }
+
+  /*
+ * And let's fade it in from the left
+ */
+  #menuToggle input:checked~ul {
+    transform: scale(1.0, 1.0);
+    opacity: 1;
+  }
+}
