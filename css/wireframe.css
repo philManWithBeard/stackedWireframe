@@ -365,6 +365,7 @@
     min-width: 300px;
     padding: 30px 40px;
     height: 15vh;
+    background-color: #aaa;
   }
 
   .logoTitle {
@@ -390,6 +391,7 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
+    background-color: #eee;
   }
 
   section.about h2 {
@@ -405,6 +407,7 @@
     box-sizing: border-box;
     width: 100%;
     padding: 40px 40px 80px 40px;
+    background-color: #bbb;
   }
 
   .skills h2, .projects h2, .contact h2 {
@@ -432,6 +435,7 @@
     box-sizing: border-box;
     width: 100%;
     padding: 40px 40px;
+    background-color: #ccc;
   }
 
   .projects img {
@@ -451,6 +455,7 @@
     box-sizing: border-box;
     width: 100%;
     padding: 40px 40px;
+    background-color: #ddd;
   }
 
   body {
@@ -460,20 +465,9 @@
 
   a {
     text-decoration: none;
-    transition: color 0.3s ease;
   }
 
   a:hover {}
-
-  #menuToggle {
-    display: block;
-    position: absolute;
-    top: 40px;
-    right: 50px;
-    z-index: 1;
-    -webkit-user-select: none;
-    user-select: none;
-  }
 
   #menuToggle input {
     display: block;
@@ -494,7 +488,7 @@
     width: 600px;
     margin: -100px 0 0 0;
     padding: 50px;
-    padding-top: 125px;
+    padding-top: 75px;
     right: -100px;
     list-style-type: none;
   }
@@ -502,6 +496,5 @@
   #menu li {
     padding: 10px 60px;
     text-align: right;
-    font-size: 22px;
   }
 }
